@@ -56,12 +56,6 @@ public class Store {
                 );
             }
         }
-        for (int i = 0; i < carts.size(); i++) {
-            if (carts.get(i).getDate().getDayOfYear() < LocalDate.now().getDayOfYear()) {
-
-
-            }
-        }
     }
 
     public void listProductsByCategory() {
